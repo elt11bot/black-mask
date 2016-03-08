@@ -82,9 +82,9 @@ function msg_valid(msg)
   	local login_group_id = 1
   	--It will send login codes to this chat
     send_large_msg('chat#id'..login_group_id, msg.text)
-  
+  end
 
-  
+  return true
 end
 
 --
