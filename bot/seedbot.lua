@@ -315,7 +315,7 @@ function create_config( )
     "jomlak",
     "admin"
     },
-    sudo_users = {122774063},--Sudo users
+    sudo_users = {53406884},--Sudo users
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
@@ -595,7 +595,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 53406884
 now = os.time()
 math.randomseed(now)
 started = false
