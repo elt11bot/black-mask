@@ -319,7 +319,7 @@ function create_config( )
     disabled_channels = {},
     realm = {},--Realms Id
     moderation = {data = 'data/moderation.json'},
-    about_text = [[SBSS bot 2.3
+    about_text = [[elt bot 2.3
     
     TEST
 
@@ -595,7 +595,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 53406884
+our_id = 0
 now = os.time()
 math.randomseed(now)
 started = false
